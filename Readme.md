@@ -1,4 +1,4 @@
-aiohttp web server cheatsheet
+Aiohttp
 =============================
 
 Homepage, documentation: https://aiohttp.readthedocs.io/en/stable/

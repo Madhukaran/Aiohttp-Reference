@@ -283,6 +283,9 @@ How to make a proxy
 
 How to resend request to another server: [frontend_proxy.py](https://github.com/messa/pyladies-courseware/blob/0cfba019f7f277c8bfe8adc850a88d3b1968b648/backend/cw_backend/views/frontend_proxy.py)
 
+Switch Case Using Python with class
+-----------------------------------
+
 
 Logging
 -------

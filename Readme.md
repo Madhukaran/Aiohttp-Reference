@@ -302,6 +302,24 @@ s=Switcher()
 s.indirect(2)
 ```
 
+Get Ip Address of the Client From HttpRequest
+---------------------------------------------
+    """
+    A transport used to process request. Read-only property.
+    The property can be used, for example, for getting IP address of client’s peer:
+    here the Peername will specify the Spceific ip Address of the client where the request is made!
+    Simple: We can get the Specific local ip address of the user from the web request.
+    library: from asyncio import transports
+    Refrence: https://docs.aiohttp.org/en/stable/web_reference.html?highlight=peername#aiohttp.web.Request.transport
+    """
+```
+from asyncio import transports
+    
+peername = request.transport.get_extra_info('peername')
+print(peername)
+if peername is not None:
+    host, port = peername
+```
 
 Logging
 -------
